@@ -29,7 +29,10 @@
 
 /* -----------------------------Special paddings/margins/text */
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -57,13 +60,14 @@ h1,h2,h3,h4 {
     float: none;
 }
 
-section-heading {
-    font-family: "EXO", sans-serif;
+.section-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25PX;
+    margin-top: 25px;
     margin-bottom: 40px;
-    
+    color: #676767;
 }
+
 /* -----------------------------Headings */
 
 header {
@@ -89,7 +93,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
